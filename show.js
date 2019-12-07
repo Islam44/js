@@ -2,7 +2,7 @@ function showData(user) {
     let table = document.getElementById('tab');
     table.insertAdjacentHTML('beforeend',
         `<tr>
-            <td><img src="${user.avatar}" alt="" /></td>
+            <td><img src="${user.avatar}" alt="this image for user" /></td>
             <td>${user.first_name}</td>
              <td>${user.last_name}</td>
               <td>${user.email}</td>
